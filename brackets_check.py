@@ -44,3 +44,7 @@ if __name__ == "__main__":
     for test in test_cases:
         result = check_balance(test)
         print(f"{test} -> {result}")
+
+    # Раскомментируйте строку ниже для ввода пользователем
+    # user_input = input("\nВведите строку со скобками: ")
+    # print(f"{user_input} -> {check_balance(user_input)}")
